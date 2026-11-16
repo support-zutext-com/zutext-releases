@@ -10,21 +10,21 @@ Markdown notes with local-first storage and end-to-end encrypted sync — on mac
 
 ### Linux
 
-Zutext 2.0.0 for Linux (x86_64) is available from the [v2.0.0 release](https://github.com/support-zutext-com/zutext-releases/releases/tag/v2.0.0).
+Zutext for Linux (x86_64) is available from the [latest release](https://github.com/support-zutext-com/zutext-releases/releases/latest). Replace `<version>` below with the version shown there.
 
-**Ubuntu / Debian** (Ubuntu 24.04 or later) — download `zutext_2.0.0_amd64.deb` and open it, or install it from the terminal:
-
-```sh
-sudo apt install ./zutext_2.0.0_amd64.deb
-```
-
-**Fedora** (Fedora 44) — download `zutext-2.0.0-1.fc44.x86_64.rpm` and open it, or install it from the terminal:
+**Ubuntu / Debian** (Ubuntu 24.04+ / Debian 13+) — download `zutext_<version>_amd64.deb` and open it, or install it from the terminal:
 
 ```sh
-sudo dnf install ./zutext-2.0.0-1.fc44.x86_64.rpm
+sudo apt install ./zutext_<version>_amd64.deb
 ```
 
-**Other distributions** — download and extract `zutext-2.0.0-linux-x86_64.tar.gz`.
+**Fedora / RHEL** (Fedora 39+ / RHEL 10+) — download `zutext-<version>-1.fc44.x86_64.rpm` and install it from the terminal:
+
+```sh
+sudo dnf install ./zutext-<version>-1.fc44.x86_64.rpm
+```
+
+**Other distributions** — download and extract `zutext-<version>-linux-x86_64.tar.gz`.
 
 ## Features
 
